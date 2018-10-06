@@ -1,0 +1,45 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/angularp4/frontend/dist
+/angularp4/frontend/tmp
+/angularp4/frontend/out-tsc
+
+# dependencies
+/angularp4/frontend/node_modules
+
+# IDEs and editors
+/angularp4/frontend/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/angularp4/frontend/.sass-cache
+/angularp4/frontend/connect.lock
+/angularp4/frontend/coverage
+/angularp4/frontend/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/angularp4/frontend/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Django
+*.pyc
+__ pycache __
+/env
+.DS_Store
